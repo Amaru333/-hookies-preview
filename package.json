@@ -1,0 +1,44 @@
+{
+  "name": "@hookies/preview",
+  "version": "1.0.0",
+  "description": "A React hook for previewing images before uploading",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "preview",
+    "image",
+    "upload",
+    "file",
+    "input",
+    "file input",
+    "image preview",
+    "image upload",
+    "file upload",
+    "file preview"
+  ],
+  "author": "Amaru",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.10",
+    "rollup": "^4.34.9",
+    "typescript": "^5.8.2"
+  }
+}
